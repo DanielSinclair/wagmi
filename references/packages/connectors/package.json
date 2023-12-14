@@ -22,7 +22,6 @@
   },
   "dependencies": {
     "@coinbase/wallet-sdk": "^3.6.6",
-    "@ledgerhq/connect-kit-loader": "^1.0.1",
     "@safe-global/safe-apps-provider": "^0.15.2",
     "@safe-global/safe-apps-sdk": "^7.9.0",
     "@walletconnect/ethereum-provider": "2.9.0",
@@ -51,10 +50,6 @@
       "types": "./dist/injected.d.ts",
       "default": "./dist/injected.js"
     },
-    "./ledger": {
-      "types": "./dist/ledger.d.ts",
-      "default": "./dist/ledger.js"
-    },
     "./metaMask": {
       "types": "./dist/metaMask.d.ts",
       "default": "./dist/metaMask.js"
@@ -80,7 +75,6 @@
   "files": [
     "/coinbaseWallet",
     "/injected",
-    "/ledger",
     "/metaMask",
     "/mock",
     "/safe",

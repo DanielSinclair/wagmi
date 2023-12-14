@@ -421,9 +421,6 @@ importers:
       '@coinbase/wallet-sdk':
         specifier: ^3.6.6
         version: 3.6.6
-      '@ledgerhq/connect-kit-loader':
-        specifier: ^1.0.1
-        version: 1.0.1
       '@safe-global/safe-apps-provider':
         specifier: ^0.15.2
         version: 0.15.2
